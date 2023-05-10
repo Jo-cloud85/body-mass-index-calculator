@@ -191,7 +191,6 @@ header img {
 .system-m_i {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    place-items: center;
     padding: 2rem 0;
 }
 
