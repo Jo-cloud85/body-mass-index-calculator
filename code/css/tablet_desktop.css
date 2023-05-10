@@ -1,0 +1,268 @@
+@media screen and (min-width: 600px) and (max-width: 1179px) {
+    /* ----------------- Overall structure ---------------- */
+    main {
+        padding: 0 2.5rem 2.5rem 2.5rem;
+    }
+
+    /* ---------------------- Header --------------------- */
+    header {
+        padding: 2.5rem 2.5rem;
+    }
+
+    header h1 {
+        font-size: 3.5rem;
+        line-height: 4rem;
+    }
+
+    header img {
+        width: 3.5rem;
+    }
+
+    /* ----------------- Input container ---------------- */
+    .input-ht_wt,
+    #bmi-summary-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    /* Bmi summary container */
+    #bmi-summary-container {
+        align-items: center;
+        border-radius: 1rem 4.5rem 4.5rem 1rem;
+    }
+
+    #bmi-score {
+        padding-bottom: 0;
+    }
+
+    #bmi-description {
+        width: 90%;
+    }
+
+    /* ---------------- Bmi advice container -------------- */
+    #bmi-advice-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    #bmi-advice-container img {
+        object-fit: cover;
+        height: 100%;
+    }
+
+    #bmi-advice-text {
+        padding: 1.5rem;
+    }
+
+    /* --------------- Healthy tips container ------------- */
+    .tips {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        gap: 2rem;
+        padding-top: 2rem;
+    }
+
+    .tips h3 {
+        padding-top: 0;
+    }
+
+    /* ---------------- Limitations container ------------- */
+    #factors-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .factors:last-child { /*Not working*/
+        grid-column: span 1/2;
+    }
+
+    .factors div {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1180px) {
+    /* ----------------- Overall structure ---------------- */
+    main {
+        padding-top: 42rem; 
+        padding-left: calc((100vw - 1180px) /2);
+        padding-right: calc((100vw - 1180px) /2);
+        padding-bottom: 2.5rem;
+    }
+
+    /* ----------------------- Fonts --------------------- */
+    header h1, #bmi-score {
+        font-size: 4rem;
+        line-height: var(--r70);
+    }
+
+    header h1 {
+        margin-top: 7.5rem;
+    }
+
+    #bmi-score {
+        padding-top: 0.5rem;
+    }
+
+    #bmi-advice-text h2,
+    #healthy-tips-container h2,
+    #limitations-container h2 {
+        font-size: 3rem;
+        line-height: var(--r53);
+        letter-spacing: -2px;
+    }
+
+    #bmi-advice-text h2,
+    #limitations-container h2 {
+        padding-bottom: 2rem;
+    }
+
+    #bmi-advice-text,
+    #healthy-tips-container h2 {
+        padding: 2rem 1.5rem;
+    }
+
+    .tips h3 {
+        font-size: 1.5rem;
+        line-height: var(--r30);
+    }
+
+    /* ---------------------- Header --------------------- */
+    header {
+        width: 50%;
+        padding: 5rem 3rem 5rem calc((100vw - 1180px) /2);
+        position: absolute;
+        left: 0;
+        top: 0; 
+    }
+
+    /* ----------------- Input container ---------------- */
+    #input-container {
+        width: 550px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-top: 10rem; 
+        margin-right: calc((100vw - 1180px) /2); 
+        margin-bottom: 4rem;
+        margin-left: 0;
+    }
+
+    .input-ht_wt,
+    #bmi-summary-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* Bmi summary container */
+    #bmi-summary-container {
+        align-items: center;
+        border-radius: 1rem 4.5rem 4.5rem 1rem;
+    }
+
+    #bmi-score {
+        padding-bottom: 0;
+    }
+
+    #bmi-description {
+        width: 90%;
+    }
+
+    /* ---------------- Bmi advice container -------------- */
+    #bmi-advice-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    #bmi-advice-container img {
+        object-fit: cover;
+        height: 100%;
+    }
+
+    /* --------------- Healthy tips container ------------- */
+    #healthy-tips-container {
+        margin: 4rem 0;
+    }
+    
+    #healthy-tips-container #tips-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .tips {
+        padding: 1.5rem 2.5rem 1.5rem 1.5rem;
+    }
+
+    .tips:hover {
+        padding: 1.5rem 4rem 1.5rem 2.5rem;
+    }
+
+    #eating {
+        border-radius: 1.5rem 0 0 1.5rem;
+    }
+    
+    #exercise {
+        border-radius: 1.5rem 0 0 1.5rem;
+        margin-top: 0;
+        margin-left: -1.5rem;
+    }
+    
+    #sleep {
+        border-radius: 1.5rem;
+        margin-top: 0;
+        margin-left: -1.5rem;
+    }
+
+    /* ---------------- Limitations container ------------- */
+    #limitations-container {
+        position: relative;
+    }
+
+    #limitation-text {
+        padding: 0 1.5rem;
+        position: absolute;
+        width: 50%;
+    }
+    
+    #factors-container {
+        display: grid;
+        grid-template-areas: 
+        "x x a a a"
+        "z b b c c"
+        "d d e e w";
+        row-gap: 1.5rem;
+        column-gap: 2rem;
+        margin-left: var(--r200); 
+    }
+
+    .factors {
+        margin-top: 0;
+    }
+
+    #gender {
+        grid-area: a;
+        margin: 0 var(--r100);
+    }
+
+    #age {
+        grid-area: b;
+        /* margin-left: 100px; */
+    }
+    
+    #muscle {
+        grid-area: c;
+    }
+
+    #pregnancy {
+        grid-area: d;
+    }
+
+    #race {
+        grid-area: e;
+    }
+}
