@@ -46,8 +46,8 @@ Add the individual's healthy weight range based on the lower and upper BMI categ
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Jo-cloud85/body-mass-index-calculator.git](https://github.com/Jo-cloud85/body-mass-index-calculator.git)
+- Live Site URL: [https://jo-cloud85.github.io/body-mass-index-calculator/](https://jo-cloud85.github.io/body-mass-index-calculator/)
 
 ## My process
 
