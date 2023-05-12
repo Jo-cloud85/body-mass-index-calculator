@@ -79,3 +79,4 @@ I learnt a few things about the radio buttons, on how to custom them and allow f
 - [Design reference](https://dribbble.com/shots/21168731-Flight-Booking-App) 
 - [Down arrow icon](<a href="https://www.flaticon.com/free-icons/down-arrow" title="down arrow icons">Down arrow icons created by Gregor Cresnar - Flaticon</a>)
 - [Morning jog image](Photo by <a href="https://unsplash.com/@esdesignisms?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Emma Simpson</a> on <a href="https://unsplash.com/photos/mNGaaLeWEp0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>)
+- [CSS loader by Aadil Shaik](https://uiverse.io/profile/aadil-01)

@@ -10,7 +10,7 @@
     --white: hsl(0, 0%, 100%);
     --borders1: hsl(0, 0%, 85%);
     --light-gray: hsl(0, 0%, 60%);
-    --gray: hsl(180, 4%, 27%);
+    --gray: #424848;
     --dark-gray: hsl(0, 0%, 12%);
     --orange: rgb(245, 153, 66);
     --very-soft-cyan: hsl(173, 20%, 76%);
