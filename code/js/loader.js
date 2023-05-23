@@ -5,7 +5,7 @@ window.onload = function() {
     let timeout;
 
     function myFunction() {
-        timeout = setTimeout(transit, 6000);
+        timeout = setTimeout(transit, 5000);
     }
 
     function transit() {
